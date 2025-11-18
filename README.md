@@ -30,7 +30,15 @@ Rooted trees are fundamental mathematical structures that appear across diverse 
 - Detailed documentation of algorithms
 - Mathematical background and references
 
+🔗 **Obsidian Vault Integration**
+- Bidirectional mapping between markdown bracket links and folder structure
+- Link graph analysis and visualization
+- Broken link detection and validation
+- See [[OBSIDIAN_VAULT.md]] for details
+
 ## Quick Start
+
+### Rooted Tree Algorithms
 
 ```bash
 # Count and display rooted trees with 5 nodes
@@ -39,6 +47,19 @@ python3 list-rooted-trees-optimized.py 5
 
 # Run performance benchmarks
 python3 benchmark.py
+```
+
+### Obsidian Vault Features
+
+```bash
+# Analyze markdown links and folder structure
+python3 obsidian_vault.py
+
+# Show folder tree and link graph as rooted trees
+python3 vault_tree_bijection.py
+
+# Get suggestions for improving structure
+python3 vault_tree_bijection.py --suggest-links
 ```
 
 ## Project Structure
