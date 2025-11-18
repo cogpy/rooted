@@ -34,7 +34,8 @@ Rooted trees are fundamental mathematical structures that appear across diverse 
 - Bidirectional mapping between markdown bracket links and folder structure
 - Link graph analysis and visualization
 - Broken link detection and validation
-- See [[OBSIDIAN_VAULT.md]] for details
+- **Scheme code bijection** - Convert vault structure to executable Scheme
+- See [[OBSIDIAN_VAULT.md]] and [[SCHEME_BIJECTION.md]] for details
 
 ## Quick Start
 
@@ -60,6 +61,9 @@ python3 vault_tree_bijection.py
 
 # Get suggestions for improving structure
 python3 vault_tree_bijection.py --suggest-links
+
+# Convert to Scheme code
+python3 scheme_bijection.py --executable --output vault.scm
 ```
 
 ## Project Structure

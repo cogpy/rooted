@@ -23,3 +23,7 @@ ENV/
 vault-graph.*
 *.dot
 *.mmd
+
+# Scheme outputs
+*.scm
+vault-demo.scm
