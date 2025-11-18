@@ -18,3 +18,12 @@ ENV/
 *.swp
 *.swo
 *~
+
+# Vault graph exports
+vault-graph.*
+*.dot
+*.mmd
+
+# Scheme outputs
+*.scm
+vault-demo.scm
