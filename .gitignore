@@ -18,3 +18,8 @@ ENV/
 *.swp
 *.swo
 *~
+
+# Vault graph exports
+vault-graph.*
+*.dot
+*.mmd
